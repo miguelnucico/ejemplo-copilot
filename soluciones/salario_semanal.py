@@ -1,0 +1,59 @@
+'''
+PLANTEAMIENTO DEL PROBLEMA
+
+Calcula el salario semanal de 
+un trabajador. Las horas 
+mayores a 40 se pagan al 
+doble.
+'''
+
+#PROBLEMA: calcular salario semanal
+# ENTRADAS: horas_trabajadas, pago_por_hora
+# SALIDA: salario_semanal
+# ALGORITMO
+# 1. Leer horas trabajadas
+# 2. Leer pago por hora
+# 3. Si horas <= 40:
+#       salario = horas * pago
+# 4. Si no:
+#       extra = horas - 40
+#       salario = (40 * pago) + (extra * pago * 2)
+# 5. Mostrar salario
+
+#CONTRATO DE FUNCIONES
+#leerDatos()
+#Entrada: ninguna
+#Salida: horas y pago
+#Responsabilidad: pedir datos al usuario
+
+#calcularSalario(horas,pago)
+#Entrada: horas, pago
+#Salida: salario
+#Responsabilidad: 
+#calcular, no imprimir
+
+#mostrarSalario(salario)
+#Entrada: salario
+#Salida: ninguna
+#Responsabilidad: mostrar resultado
+
+
+#CASOS DE PRUEBA
+#caso 1: 40 horas a $10
+#entrada: 40, 10
+#salida: 400
+
+#caso 2: 45 horas a $10
+#entrada: 45, 10
+#salida: 475
+
+#caso 3: 50 horas a $12
+#entrada: 50, 12
+#salida: 600
+
+# Restricciones:
+# - no imprimir dentro de la funcion de calcularSalario
+# - devolver el resultado
+# - no usar bibliotecas externas
+# - no usar variables globales
+# - no realces llamadas a funciones dentro de la funcion de este archivo+
